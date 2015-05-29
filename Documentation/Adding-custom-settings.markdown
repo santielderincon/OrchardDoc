@@ -11,7 +11,7 @@ Basically, there are two scopes you can define your settings in:
 
 ##Defining site scope settings (Orchard 1.8 Onwards)
 
-Orchard 1.8 drastically simplifies creation of site settings, removing the previous need for "Part Records" and migration files. To create new site settings for your module you now only need three classes; A ```ContentPart```, a ```Handler``` and potentially a view file if you want the settings to be edited via the "Site Settings" area of Admin. For a real world example look for the ```RegistrationSettingsPart```, ```RegistrationSetttingsPartHandler``` and ```Users.RegistrationSettings.cshtml``` files in the ```Orchard.Users``` module.
+Orchard 1.8 drastically simplifies creation of site settings, removing the previous need for "Part Records" and migration files. To create new site settings for your module you now only need three classes; A ```ContentPart```, a ```Handler``` and potentially a view file if you want the settings to be edited via the "Site Settings" area of Admin. For a real world example look for the ```RegistrationSettingsPart```, ```RegistrationSettingsPartHandler``` and ```Users.RegistrationSettings.cshtml``` files in the ```Orchard.Users``` module.
 
 ###The Content Part
 
